@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 import re
 import shutil
 import skimage
-from skimage import data, io
+#from skimage import data, io
 from matplotlib import pyplot
 import ast
 
@@ -66,10 +66,10 @@ def main():
                                     pyplot.show()                                    
   
                     else:
-                        #print('data directory not existe ', pathSubdir)
+                        #print('Data directory does not exist ', pathSubdir)
                         pass
         else: 
-            #print ('file does not existe or is not accessible ', pathDirIn)
+            #print ('File is either non-existent or inaccessible ', pathDirIn)
             pass
                                 
                                     
